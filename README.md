@@ -48,7 +48,3 @@ Use JDK 21 or later. Each question is an independent program with the class name
 ## Automatic Generation and Validation
 
 The GitHub Actions workflow generates Assignments 2–15, creates code-view/output panels and builds the personalized lab PDF whenever the generator files or workflow change. It also compiles and runs each Java program in a temporary directory.
-
-## Preview Note
-
-The code-view panels are generated IDE-style renderings of the source code, not photographs of a live IDE. Output panels show the programs' generated console output.
