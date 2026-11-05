@@ -1,12 +1,15 @@
 name: Generate and Validate Java Lab Assignments
 on:
+  workflow_dispatch:
   push:
     paths:
+      - "Assignment1/**"
       - ".github/workflows/generate-lab.yml"
       - "tools/generate_lab.py"
       - "tools/create_lab_pdf.py"
   pull_request:
     paths:
+      - "Assignment1/**"
       - ".github/workflows/generate-lab.yml"
       - "tools/generate_lab.py"
       - "tools/create_lab_pdf.py"
